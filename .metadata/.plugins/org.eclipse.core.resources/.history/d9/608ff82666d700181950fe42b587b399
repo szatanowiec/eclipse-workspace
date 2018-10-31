@@ -1,0 +1,10 @@
+package pl.javastart.types;
+
+public class Typy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

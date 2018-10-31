@@ -1,0 +1,21 @@
+package pl.javastart.petla;
+
+public class Petla {
+
+	public static void main(String[] args) {
+		  int licznik = 0;
+
+		  while(licznik<10){
+			  System.out.println("To jest petla");
+			  licznik++;
+		  }
+	          System.out.println("Koniec pêtli");
+       	  do{
+      		  System.out.println("To jest petla 1");
+       		  licznik++;
+       	  }
+	      while(licznik<10);
+	      	  System.out.println("Koniec pêtli 1");
+	   }
+	}
+

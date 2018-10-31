@@ -1,0 +1,10 @@
+package pl.javastart.petla;
+
+public class Petla {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

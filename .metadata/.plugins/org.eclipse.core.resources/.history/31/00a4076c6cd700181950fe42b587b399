@@ -1,0 +1,10 @@
+package pl.javastart.operatory;
+
+public class Operatory {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

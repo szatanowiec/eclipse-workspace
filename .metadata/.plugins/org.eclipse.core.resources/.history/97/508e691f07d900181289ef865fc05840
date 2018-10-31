@@ -1,0 +1,16 @@
+package pl.javastart.petla;
+
+import java.util.Scanner;
+
+public class Petla {
+
+	public static void main(String[] args) throws InterruptedException {
+		Scanner odczyt = new Scanner(System.in);
+		int zegar;
+		System.out.println("Podaj czas bomby: ");
+		for(zegar=odczyt.nextInt(); zegar>0; zegar--)
+			Thread.sleep(1000);
+			System.out.println("Bomba wybuchnie za "+zegar);
+		System.out.println("BUM!");
+	}
+}

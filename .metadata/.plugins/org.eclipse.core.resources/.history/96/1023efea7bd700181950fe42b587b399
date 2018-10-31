@@ -1,0 +1,14 @@
+package pl.javastart.witaj;
+import java.util.Scanner;
+
+public class Witaj {
+
+	public static void main(String[] args) {
+		String imie; //tutaj zapiszemy imiê
+		Scanner odczyt = new Scanner(System.in); //obiekt do odebrania danych od u¿ytkownika
+		
+		imie = odczyt.nextLine();
+		System.out.println("Witaj "+imie);
+	}
+
+}

@@ -1,0 +1,12 @@
+package pl.javastart.witaj;
+import java.util.Scanner;
+
+public class Witaj {
+
+	public static void main(String[] args) {
+		String powitanie = "Podaj swoje imie";
+		System.out.println(powitanie);
+
+	}
+
+}
